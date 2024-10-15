@@ -2,7 +2,7 @@ version: 1.2
 workflows:
   - name regenie
     subclass: WDL
-    primaryDescriptorPath: /gwas/regenie.wdl
+    primaryDescriptorPath: /gwas/test/regenie.wdl
 
   - name demo
     subclass: WDL
