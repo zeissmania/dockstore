@@ -1,6 +1,9 @@
 version: 1.2
 workflows:
-  - subclass: <CWL | WDL | NFL | GALAXY>
-    authors:
-      - name: huachang chen
-        email: hua-chang.chen@vumc.org
+  - name regenie
+    subclass: WDL
+    primaryDescriptorPath: /gwas/regenie.wdl
+
+  - name demo
+    subclass: WDL
+    primaryDescriptorPath: /gwas/demo.wdl
